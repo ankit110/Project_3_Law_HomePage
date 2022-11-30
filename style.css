@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+body {
+    background-color: #312f20;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.navbar>div>img {
+    display: flex;
+    margin-left: 5vw;
+    flex: 2;
+    margin-right: 20vw;
+}
+
+div>.list {
+    display: flex;
+    list-style-type: none;
+    width: 38vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item {
+    display: flex;
+    flex: 1;
+}
+
+.list-item:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.button-small {
+    margin-left: 5vw;
+    padding: 2vh 2.6vw;
+    /* margin-right: 5vw; */
+    background-color: transparent;
+    border: 1px solid #9b9b3b;
+    font-size: 20px;
+    color: #9b9b3b;
+    border-radius: 13px;
+}
+
+ul:last-child {
+    white-space: nowrap;
+}
+
+.hero {
+    display: flex;
+    
+}
+
+h1 {
+    width: 45vw;
+    margin-left: 5vw;
+    color: #fff;
+    font-size: 95px;
+    text-align: left;
+}
+
+p {
+    width: 30vw;
+    color: #ffffffb7;
+    font-size: 21px;
+    margin-left: 7vw;
+    margin-top: 20vh;
+    text-align: left;
+
+}
+section>div+div>img {
+    margin-top: -5vh;
+    height: 50vh;
+    width:100vw;
+}
+
+.fa-sharp  {
+    color: white;
+    font-size: 30px;
+    
+    padding: 10px 10px;
+}
+
+.bottom {
+    display: flex;
+    margin-left: 92vw;
+    margin-bottom: 2vh;
+
+}
+
+.fa-circle-chevron-right:hover {
+    background-color: #9b9b3b;
+}
+
+.fa-circle-chevron-left:hover {
+    background-color: #9b9b3b;
+}
